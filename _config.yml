@@ -1,7 +1,18 @@
 # Site settings
+<<<<<<< HEAD
 title: Test themes
 remote_theme: Jekyll_modern-blog
 
 author: Wferr
 baseurl: "/testblog/" # the subpath of your site, e.g. /blog/
 url: "https://sairaraza.github.io" # the base hostname & protocol for your site
+=======
+title: Modern Blog
+description: Modern-Blog A Elegant template for Jekyll
+keywords: Modern, Blogging, Fun
+author: Wferr
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+theme: jekyll-theme-cayman
+>>>>>>> a7ed104973246a1b52af17638ce557ea58ddc2e7
