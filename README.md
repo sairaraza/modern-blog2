@@ -1,4 +1,5 @@
 # Jekyll Modern Blog
+changed default branch to gh pages 
 just added a jekyll theme to the publishing settings
 Just checking if this goes to the gh branch
 A Simple, Clean and responsive modern blog for jekyll.
