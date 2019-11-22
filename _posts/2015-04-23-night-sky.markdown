@@ -1,5 +1,5 @@
 ---
-title:  "Absense of light"
+title:  "Checking again"
 subtitle: "Only lights from space"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
