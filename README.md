@@ -1,5 +1,6 @@
 # Jekyll Modern Blog
 
+Just checking if this goes to the gh branch
 A Simple, Clean and responsive modern blog for jekyll.
 
 ## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
