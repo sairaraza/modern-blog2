@@ -1,0 +1,7 @@
+# Site settings
+title: Test themes
+remote_theme: Jekyll_modern-blog
+
+author: Wferr
+baseurl: "/testblog/" # the subpath of your site, e.g. /blog/
+url: "https://sairaraza.github.io" # the base hostname & protocol for your site
