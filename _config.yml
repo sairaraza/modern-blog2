@@ -1,5 +1,5 @@
 # Site settings
 title: Title in config file
 author: Wferr
-baseurl: "/testblog" # the subpath of your site, e.g. /blog/
+baseurl: "/testblog/" # the subpath of your site, e.g. /blog/
 url: "https://sairaraza.github.io" # the base hostname & protocol for your site
