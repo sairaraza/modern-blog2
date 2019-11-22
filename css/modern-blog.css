@@ -203,7 +203,7 @@
 }
 
 body {
-	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	color: #3b393d;
 	background: #f0f0f0;
@@ -239,15 +239,15 @@ a:focus {
 }
 
 .body {
-	background: #acaad1;
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 67%, rgba(0,254,255,1) 68%, rgba(0,44,255,1) 100%);
 }
 
 .body a {
-	color: #4f4c4c;
+	color: magenta;
 }
 
 .body .header h1 span {
-	color: #4f4c4c;
+	color: rgba(0,0,0,0.0);
 }
 
 .hidden {
@@ -275,7 +275,7 @@ a:focus {
 	font-size: .45em;
 	display: block;
 	padding: .5em 0 1em;
-	color: #999;
+	color: pink;
 }
 /* Top Navigation Style */
 
@@ -310,7 +310,7 @@ a:focus {
 	}
 }
 
-/* PATTERN */
+/* PATTERN
 
 .pattern {
 	position: fixed;
@@ -349,10 +349,10 @@ a:focus {
 	opacity: 0;
 	-webkit-transform: scale(0);
 	transform: scale(0);
-}
-/* disable scale on firefox */
+}*/
+/* disable scale on firefox
 
 .ff .polygon {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
-}
+}*/
