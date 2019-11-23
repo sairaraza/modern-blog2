@@ -1,6 +1,6 @@
 ---
-title:  "Just checking"
-subtitle: "But do you scream?"
+title:  "Machine learning repository online"
+subtitle: "A work in progress"
 
 image: "img/e.jpg"
 date:   2015-04-24 12:12:12
