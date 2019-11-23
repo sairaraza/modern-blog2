@@ -238,7 +238,8 @@ a {
 
 a:hover,
 a:focus {
-	color: magenta;
+	color: chartreuse;
+	letter-spacing: 4px
 }
 
 .body {
@@ -278,10 +279,15 @@ a:focus {
 }
 
 .header h1 span {
-	font-size: .45em;
+	font-size: 2em;
 	display: block;
 	padding: .5em 0 1em;
 }
+
+.header a {
+ color: magenta;
+}
+
 /* Top Navigation Style */
 
 .links {

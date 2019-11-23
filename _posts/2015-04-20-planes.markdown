@@ -1,5 +1,5 @@
 ---
-title:  "Is this working?"
+title:  "Making glass from diatomaceous earth"
 subtitle: "The Fly!"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12

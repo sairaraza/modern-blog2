@@ -1,5 +1,5 @@
 ---
-title:  "Nobody else was around."
+title:  "3D Printing a labyrinthine acoustic metamaterial"
 subtitle: "A Beautiful shot during the night."
 image: "img/b.jpg"
 date:   2015-04-21 12:12:12
