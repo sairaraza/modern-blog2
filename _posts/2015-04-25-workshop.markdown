@@ -5,9 +5,8 @@ tag: "Metamaterials", "Research"
 image: "img/f.jpg"
 date:   2015-04-25 12:12:12
 ---
-<head><style>
 
-
+<style>
 dl.list:after,
 dl.list:before {content:"";display:table;-webkit-flex:0;flex:0;}
 dl.list:after {clear:both;}
@@ -16,7 +15,6 @@ dl.list > dd {float:left;clear:left;margin-left:150px;}
 dl.list {display:inline-block;}
 dl.list {display:block;}
 dl.list > dt {*float:none;*position:static;}
-
 dl.list > dt {width:170px;margin-right:-170px;}
 dl.list > dd {width:75%; margin-left:180px;}
 @media all and (min-width:1px) {
@@ -27,8 +25,6 @@ dl.list > dd {margin-left:38%;}
 dl.list > dt {width:170px;margin-right:-170px;}
 dl.list > dd {margin-left:180px;}
 }
-
-
 dl.list > dt {margin-bottom:0px;}
 dl.list > dd {margin-bottom:0px;}
 dl.list > dt:first-child + dd {margin-top:0px;}
@@ -36,9 +32,7 @@ dl.list > dd + dt {margin-top:10px;}
 dl.list > dt + dd {margin-top:10px;}
 dl.list dl.list {margin-top:10px;}
 dl.list dl {margin-bottom:0px;}
-
-
-</style></head>
+</style>
 
 ### The Lifecycle and applications of diatoms
 
@@ -54,5 +48,3 @@ dl.list dl {margin-bottom:0px;}
 <iframe
   src="https://embed.kumu.io/e5c6952460b3a3fcef7a08c3d8b11a81"
   width="940" height="600" frameborder="0"></iframe>
-
-<br>
