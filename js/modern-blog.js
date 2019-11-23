@@ -163,10 +163,10 @@ var demo = (function (window) {
             sequence.add(card.openCard(_onCardMove), 0);
 
         } else {
-            // Close sequence.
+            // Close sequence.  reduced 0.8 to 0.6
 
             var closeCard = card.closeCard();
-            var position = closeCard.duration() * 0.8; // 80% of close card tween.
+            var position = closeCard.duration() * 0.6; // 80% of close card tween.
 
             sequence.add(closeCard);
             sequence.add(tweenOtherCards, position);
