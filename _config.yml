@@ -4,4 +4,3 @@ author: Wferr
 baseurl: "/testblog/" # the subpath of your site, e.g. /blog/
 url: "https://sairaraza.github.io" # the base hostname & protocol for your site
 # Tagssee https://www.stefan.lu/blog/tag-cloud-in-jekyll-no-plugins/
-tag_dir: tag
