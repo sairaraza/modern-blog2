@@ -51,7 +51,7 @@
 	width: 100%;
 	max-width: 800px;
 	height: auto;
-	margin: 400px auto 60px;
+	margin: 100px auto 60px;
 	padding: 30px 40px 22px;
 	background: #fff;
 }
@@ -80,7 +80,7 @@
 }
 
 .card__title {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1;
 	margin: 5px 0 0 0;
 	color: #3b393d;
@@ -91,7 +91,7 @@
 }
 
 .card__subtitle {
-	font-size: .95em;
+	font-size: 0.9em;
 	line-height: 1;
 	margin: 5px 0 0;
 	color: #777778;
@@ -102,20 +102,20 @@
 }
 
 .card__copy {
-	font-size: 1.25em;
+	font-size: 1.0em;
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 25px 30px 100px;
+	padding: 14px 30px 100px;
 	color: #3b393d;
 }
 
 .card__copy p:first-of-type {
-	font-size: 1.5em;
+	font-size: 1.1em;
 	padding: 0 0 1em 0;
 }
 
 .card__btn-close {
-	font-size: 18px;
+	font-size: 28px;
 	position: absolute;
 	top: 0;
 	right: 0;
