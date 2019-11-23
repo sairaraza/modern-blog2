@@ -30,7 +30,7 @@ layout: compress
     <header class="header">
         <h1>About</h1>
 </header>
-  <script src="js/vendors/trianglify.min.js"></script>
+
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
