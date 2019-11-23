@@ -224,8 +224,8 @@ body.body--hidden .header {
 }
 
 .header{
-	-webkit-transition: opacity 300ms ease-in-out;
-	transition: opacity 300ms ease-in-out;
+	-webkit-transition: opacity 100ms ease-in-out;
+	transition: opacity 100ms ease-in-out;
 }
 
 a {
@@ -247,7 +247,7 @@ a:focus {
 	color: magenta;
 }
 
-.body .header h1 span {
+.body .header h2 span {
 	color: rgba(0, 55, 255, 0.74);
 
 }
@@ -341,8 +341,8 @@ a:focus {
 }
 
 .polygon {
-	transition: -webkit-transform 200ms ease-in-out, opacity 200ms ease-in-out;
-	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
+	transition: -webkit-transform 100ms ease-in-out, opacity 200ms ease-in-out;
+	transition: transform 100ms ease-in-out, opacity 200ms ease-in-out;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transform-origin: center bottom;
