@@ -24,8 +24,9 @@
 .card__container--closed {
 	position: absolute;
 	overflow: hidden;
+	background: rgba(94, 94, 94, 0.26);
 }
-/* the small menu images */
+
 .card__image {
 	position: absolute;
 	top: 0;
