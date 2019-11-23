@@ -162,8 +162,8 @@ var Card = (function (window) {
             position: 'fixed',
             overflow: 'hidden'
         });
-// changed wto 1 to see if it woud make image  faster
-        TL.to([this._container, track], 1.5, {
+// changed wto 1 to see if it woud make image  faster. it did
+        TL.to([this._container, track], 1, {
 
             width: windowW,
             height: '100%',
@@ -206,7 +206,7 @@ var Card = (function (window) {
       /**
        * reduced from 1 to 0.3
        */
-        var tween = TweenLite.to(this._content, 0.3, {
+        var tween = TweenLite.to(this._content, 0.6, {
             y: 0,
             clearProps: 'all',
             ease: Expo.easeInOut
