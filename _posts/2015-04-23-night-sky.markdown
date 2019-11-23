@@ -1,5 +1,5 @@
 ---
-title:  "Checking again"
+title:  "Vinyl cutting a a fractal antenna"
 subtitle: "Only lights from space"
 
 image: "img/d.jpg"

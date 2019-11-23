@@ -251,8 +251,8 @@ a:focus {
 }
 
 .body .header h2 span {
-	color: rgba(0, 55, 255, 0.74);
-
+color: rgba(0, 55, 255, 0.74);
+font-size: 2em;
 }
 
 .hidden {
@@ -279,7 +279,6 @@ a:focus {
 }
 
 .header h1 span {
-	font-size: 2em;
 	display: block;
 	padding: .5em 0 1em;
 }
