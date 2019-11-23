@@ -58,8 +58,8 @@ var Card = (function (window) {
         // Compose sequence and use duration to overlap tweens.
         this._TL.add(slideContentDown);
         this._TL.add(clipImageIn, 0);
-        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.9);
-        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.9);
+        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.1);
+        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.1);
         this._TL.add(slideContentUp/*, '-=' + clipImageOut.duration() * 0.6*/);
 
         this.isOpen = true;
