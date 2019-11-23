@@ -1,7 +1,7 @@
 ---
 title:  "Machine learning repository online"
 subtitle: "A work in progress"
-
+tag: "Machine Learning"
 image: "img/e.jpg"
 date:   2015-04-24 12:12:12
 ---
