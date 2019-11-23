@@ -127,24 +127,24 @@
 }
 
 .meta {
-	font-size: .85em;
+	font-size: 0em;
 	display: -webkit-flex;
 	display: flex;
-	padding: 0 0 35px 0;
+	padding: 0 0 0px 0;
 
 	-webkit-align-items: center;
 	align-items: center;
 }
 
 .meta__avatar {
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;
+	border-radius: 0%;
+	height: 0px;
+	width: 0px;
 }
 
 .meta__author {
 	font-weight: bold;
-	padding: 0 15px;
+	padding: 0 0px;
 }
 
 .meta__date {
@@ -176,7 +176,7 @@
 		padding: 35px 0px 0px;
 	}
 	.meta {
-		padding: 0 0 25px 0;
+		padding: 0 0 0px 0;
 	}
 	.card__copy {
 		font-size: 90%;
@@ -203,7 +203,7 @@
 }
 
 body {
-	font-family: 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
 	line-height: 1.5;
 	color: #3b393d;
 	background: #f0f0f0;
