@@ -72,8 +72,8 @@ var Card = (function (window) {
      * @private
      */
     Card.prototype._slideContentDown = function () {
-
-        var tween = TweenLite.to(this._content, 0.8, {
+      /*reduced from 0.8 to 0.2     */
+        var tween = TweenLite.to(this._content, 0.2, {
             y: window.innerHeight,
             ease: Expo.easeInOut
         });
@@ -108,7 +108,7 @@ var Card = (function (window) {
 
         // Create a tween for each point.
         start.forEach(function (point, i) {
-
+  // reduce from 1.5 to 1
             var tween = TweenLite.to(point, 1.5, end[i]);
 
             end[i].onUpdate = function () {
@@ -164,8 +164,8 @@ var Card = (function (window) {
         });
 
         TL.to([this._container, track], 2, {
-            // changed width to  / 2 to see if it woud make image smaller and faster
-            width: windowW / 2,
+            // changed width to  / 2 to see if it woud make image smaller and faster it didnt!
+            width: windowW,
             height: '100%',
             x: windowW / 2,
             y: 0,
@@ -203,8 +203,10 @@ var Card = (function (window) {
      * @private
      */
     Card.prototype._slideContentUp = function () {
-
-        var tween = TweenLite.to(this._content, 1, {
+      /**
+       * reduced from 1 to 0.3
+       */
+        var tween = TweenLite.to(this._content, 0.3, {
             y: 0,
             clearProps: 'all',
             ease: Expo.easeInOut
@@ -217,8 +219,8 @@ var Card = (function (window) {
      * Close card.
      */
     Card.prototype.closeCard = function () {
-
-        TweenLite.to(this._container, 0.4, {
+/*reduced this from 0.4 to 0.2s*/
+        TweenLite.to(this._container, 0.2, {
             scrollTo: {
                 y: 0
             },
@@ -247,8 +249,8 @@ var Card = (function (window) {
      * Hide card, called for all cards except the selected one.
      */
     Card.prototype.hideCard = function () {
-
-        var tween = TweenLite.to(this._el, 0.4, {
+  /*  decreased from 0.4 t0 0.2 s */
+        var tween = TweenLite.to(this._el, 0.2, {
             scale: 0.8,
             autoAlpha: 0,
             transformOrigin: 'center bottom',
@@ -262,8 +264,8 @@ var Card = (function (window) {
      * Show card, called for all cards except the selected one.
      */
     Card.prototype.showCard = function () {
-
-        var tween = TweenLite.to(this._el, 0.5, {
+  /* reduced from 0.5 to 0.2.*/
+        var tween = TweenLite.to(this._el, 0.2, {
             scale: 1,
             autoAlpha: 1,
             clearProps: 'all',
