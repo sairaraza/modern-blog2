@@ -54,7 +54,7 @@ var demo = (function (window) {
             cell_size: 90,
             variance: 0.75,
             stroke_width: 1,
-            x_colors: 'Accent',
+            x_colors: 'random',
             y_colors: '["#0000ff","##00ffff","#ffffff","#ff00ff","#00ff00"],
         }).svg(); // Render as SVG.
 
