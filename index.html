@@ -47,10 +47,10 @@ layout: compress
                          preserveAspectRatio="xMidYMid slice">
                         <defs>
                             <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,120 0,0 120,0 120,120"></polygon>
+                                <polygon class="clip" points="0,10 0,0 10,0 10,10"></polygon>
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="120" height="100"
                                xlink:href="{{ post.image }}"></image>
                     </svg>
                     <div class="card__content">
