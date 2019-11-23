@@ -58,7 +58,7 @@ var Card = (function (window) {
         // Compose sequence and use duration to overlap tweens.
         this._TL.add(slideContentDown);
         this._TL.add(clipImageIn, 0);
-        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.6);
+        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.3);
         // this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.3);
         this._TL.add(slideContentUp/*, '-=' + clipImageOut.duration() * 0.6*/);
 
@@ -91,17 +91,17 @@ var Card = (function (window) {
         var TL = new TimelineLite;
 
         var start = [
-            [0, 1200],
+            [0, 200],
             [0, 0],
-            [1920, 0],
-            [1920, 1200]
+            [920, 0],
+            [920, 200]
         ];
 
         var end = [
+            [916, 570],
             [916, 430],
-            [1125, 643],
-            [960, 607],
-            [793, 570]
+            [960, 430],
+            [960, 570]
         ];
 
         var points = [];
