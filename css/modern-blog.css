@@ -88,6 +88,7 @@
 
 .card__container--closed .card__title {
 	color: #fff;
+	background: rgba(94, 94, 94, 0.26);
 }
 
 .card__subtitle {
