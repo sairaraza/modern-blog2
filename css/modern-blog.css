@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Chivo:700,900|Contrail+One|Goblin+One|Racing+Sans+One|Fanwood+Text:400,400i|Space+Mono&display=swap');
 /*CARD */
 
 .card {
@@ -248,7 +248,8 @@ a:focus {
 }
 
 .body .header h1 span {
-	color: rgba(0,0,0,0.0);
+	color: rgba(0, 55, 255, 0.74);
+
 }
 
 .hidden {
@@ -282,7 +283,7 @@ a:focus {
 /* Top Navigation Style */
 
 .links {
-	margin: 2em 0 0;
+	margin: 0em 0 0;
 }
 
 .links a {
