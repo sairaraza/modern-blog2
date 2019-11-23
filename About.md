@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-<!DOCTYPE html>
+
 <html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8"/>
@@ -25,16 +25,18 @@ layout: compress
         }
     </script>
 </head>
+
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>About</h1>
-</header>
+    <a href="https://sairaraza.github.io/testblog/About"><h1>SAIRA RAZA<span>About</span></h1></a>
+    </header>
 
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
 <script src="js/card-modern-blog.js"></script>
 <script src="js/modern-blog.js"></script>
+</div>
 </body>
 </html>
