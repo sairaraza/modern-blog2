@@ -52,10 +52,10 @@ var demo = (function (window) {
             width: window.innerWidth,
             height: window.innerHeight,
             cell_size: 90,
-            variance: 0.8,
+            variance: 0.75,
             stroke_width: 1,
-            x_colors: 'accent',
-            y_colors: 'match x'
+            x_colors: 'Accent',
+            y_colors: '["#0000ff","##00ffff","#ffffff","#ff00ff","#00ff00"],
         }).svg(); // Render as SVG.
 
         _mapPolygons(pattern);
