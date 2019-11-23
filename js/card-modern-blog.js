@@ -91,10 +91,10 @@ var Card = (function (window) {
         var TL = new TimelineLite;
 
         var start = [
-            [0, 600],
+            [0, 1200],
             [0, 0],
-            [935, 0],
-            [935, 600]
+            [1920, 0],
+            [1920, 1200]
         ];
 
         var end = [
@@ -164,7 +164,8 @@ var Card = (function (window) {
         });
 
         TL.to([this._container, track], 2, {
-            width: windowW,
+            // changed width to  / 2 to see if it woud make image smaller and faster
+            width: windowW / 2,
             height: '100%',
             x: windowW / 2,
             y: 0,
