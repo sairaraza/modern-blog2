@@ -59,7 +59,7 @@ var Card = (function (window) {
         this._TL.add(slideContentDown);
         this._TL.add(clipImageIn, 0);
         this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.1);
-        // this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.3);
+        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.1);
         this._TL.add(slideContentUp/*, '-=' + clipImageOut.duration() * 0.6*/);
 
         this.isOpen = true;
@@ -73,7 +73,7 @@ var Card = (function (window) {
      */
     Card.prototype._slideContentDown = function () {
 
-        var tween = TweenLite.to(this._content, 0.8, {
+        var tween = TweenLite.to(this._content, 0.6, {
             y: window.innerHeight,
             ease: Expo.easeInOut
         });
@@ -98,10 +98,10 @@ var Card = (function (window) {
         ];
 
         var end = [
-            [900, 700],
-            [900, 700],
-            [900, 700],
-            [900, 700]
+            [935, 600],
+            [935, 600],
+            [935, 600],
+            [935, 600]
         ];
 
         var points = [];
