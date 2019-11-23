@@ -320,9 +320,3 @@ var demo = (function (window) {
 
 // Kickstart Demo.
 window.onload = demo.init;
-
-
-.site-tag a {
-    display: inline-block;
-    margin-right: 12px;
-}
