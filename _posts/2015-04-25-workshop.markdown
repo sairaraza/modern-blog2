@@ -1,7 +1,7 @@
 ---
-title:  "Lifecycle and applications of diatoms"
+title: "Lifecycle and applications of diatoms"
 subtitle: "Some outputs"
-tag: "Metamaterials", "Research"
+tag: "Metamaterials" "Research"
 image: "img/f.jpg"
 date:   2015-04-25 12:12:12
 ---
