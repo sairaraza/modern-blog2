@@ -43,6 +43,7 @@
 
 .card__container--fix-image .card__image {
 	position: fixed;
+
 }
 
 .card__content {
@@ -252,7 +253,7 @@ a:focus {
 
 .hidden {
 	position: absolute;
-	overflow: hidden;
+	overflow: visible;
 	width: 0;
 	height: 0;
 	pointer-events: none;
@@ -266,16 +267,17 @@ a:focus {
 
 .header h1 {
 	font-size: 3em;
+	font-family: 'Racing Sans One', sans-serif;
 	font-weight: 400;
 	line-height: 1.2;
 	margin: .5em 0 0;
+	color: blue;
 }
 
 .header h1 span {
 	font-size: .45em;
 	display: block;
 	padding: .5em 0 1em;
-	color: pink;
 }
 /* Top Navigation Style */
 
@@ -339,7 +341,7 @@ a:focus {
 
 .polygon {
 	transition: -webkit-transform 200ms ease-in-out, opacity 200ms ease-in-out;
-	transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transform-origin: center bottom;
