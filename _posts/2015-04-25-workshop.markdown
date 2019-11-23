@@ -1,9 +1,9 @@
 ---
 title: "Lifecycle and applications of diatoms"
 subtitle: "Some outputs"
-tag: "Metamaterials"
-image: "img/f.jpg"
+image: "img/con.png"
 date:   2015-04-25 12:12:12
+tag: "Metamaterials"
 ---
 
 <style>
@@ -33,8 +33,6 @@ dl.list > dt + dd {margin-top:10px;}
 dl.list dl.list {margin-top:10px;}
 dl.list dl {margin-bottom:0px;}
 </style>
-
-### The Lifecycle and applications of diatoms
 
 <dl class="list">
 <dt><b>Research for</b></dt>
