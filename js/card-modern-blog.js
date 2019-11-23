@@ -91,10 +91,10 @@ var Card = (function (window) {
         var TL = new TimelineLite;
 
         var start = [
-            [0, 1200],
+            [0, 600],
             [0, 0],
-            [1920, 0],
-            [1920, 1200]
+            [935, 0],
+            [935, 600]
         ];
 
         var end = [
