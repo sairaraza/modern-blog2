@@ -72,8 +72,8 @@ var Card = (function (window) {
      * @private
      */
     Card.prototype._slideContentDown = function () {
-      /*reduced from 0.8 to 0.2     */
-        var tween = TweenLite.to(this._content, 0.2, {
+      /*reduced from 0.8 to 0.4     */
+        var tween = TweenLite.to(this._content, 0.4, {
             y: window.innerHeight,
             ease: Expo.easeInOut
         });
@@ -162,8 +162,8 @@ var Card = (function (window) {
             position: 'fixed',
             overflow: 'hidden'
         });
-// changed wto 1 to see if it woud make image  faster 
-        TL.to([this._container, track], 1, {
+// changed wto 1 to see if it woud make image  faster
+        TL.to([this._container, track], 1.5, {
 
             width: windowW,
             height: '100%',
