@@ -108,8 +108,8 @@ var Card = (function (window) {
 
         // Create a tween for each point.
         start.forEach(function (point, i) {
-  // reduce from 1.5 to 1
-            var tween = TweenLite.to(point, 1.5, end[i]);
+  // reduce from 1.5 to 0.5
+            var tween = TweenLite.to(point, 0.5, end[i]);
 
             end[i].onUpdate = function () {
 
@@ -162,9 +162,9 @@ var Card = (function (window) {
             position: 'fixed',
             overflow: 'hidden'
         });
+// changed wto 1 to see if it woud make image  faster 
+        TL.to([this._container, track], 1, {
 
-        TL.to([this._container, track], 2, {
-            // changed width to  / 2 to see if it woud make image smaller and faster it didnt!
             width: windowW,
             height: '100%',
             x: windowW / 2,
