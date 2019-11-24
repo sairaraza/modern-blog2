@@ -61,11 +61,10 @@ tags: Metamaterials
                   <!-- Here's a hack to generate a "tag cloud" where the size of
                   the word is directly proportional to the number of posts with
                   that tag. -->
-                  <a href="/tags/{{ tag[0] }}/"
-                  style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
-                      {{ tag[0] }} |
-                  </a>
+                  <a href="https://sairaraza.github.io/testblog/tags/{{ tag[0] }}/"
+                  style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px"> {{ tag[0] }} |</a>
                   {% endfor %}
+
               </p>
         </nav>
     </header>
@@ -119,7 +118,7 @@ tags: Metamaterials
 </div>
 <!-- JS-->
 
-  <script src="js/vendors/trianglify.min.js"></script>
+<script src="js/vendors/trianglify.min.js"></script>
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
