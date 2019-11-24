@@ -58,8 +58,8 @@ var Card = (function (window) {
         // Compose sequence and use duration to overlap tweens.
         this._TL.add(slideContentDown);
         this._TL.add(clipImageIn, 0);
-        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0);
-        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0);
+        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.1);
+        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.1);
         this._TL.add(slideContentUp/*, '-=' + clipImageOut.duration() * 0.6*/);
 
         this.isOpen = true;
@@ -91,10 +91,10 @@ var Card = (function (window) {
         var TL = new TimelineLite;
 
         var start = [
-            [0, 1200],
+            [0, 600],
             [0, 0],
-            [1920, 0],
-            [1920, 1200]
+            [935, 0],
+            [935, 600]
         ];
 
         var end = [
@@ -163,7 +163,7 @@ var Card = (function (window) {
             overflow: 'hidden'
         });
 // changed wto 1 to see if it woud make image  faster. it did
-        TL.to([this._container, track], 1, {
+        TL.to([this._container, track], 0.5, {
 
             width: windowW,
             height: '100%',
