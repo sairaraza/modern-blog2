@@ -27,20 +27,8 @@ tags: Metamaterials
 </head>
 
 <body class="body">
-<title>{{ site.title }}</title>  <h1>{{ page.tag | capitalize }}</h1>
 
-<!-- Tag block for site to go in the header once tested-->
-  <p>
-      {% for tag in site.tags %}
-      <!-- Here's a hack to generate a "tag cloud" where the size of
-      the word is directly proportional to the number of posts with
-      that tag. -->
-      <a href="/tags/{{ tag[0] }}/"
-      style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
-          {{ tag[0] }} |
-      </a>
-      {% endfor %}
-  </p>
+
 
 
 <!-- list format index for this tag-->
@@ -66,14 +54,29 @@ tags: Metamaterials
         <nav class="links">
               <!-- cards <a href="#"><i class="fa fa-instagram fa-3x"></i></a>-->
             <a href="https://sairaraza.tumblr.com/"><i class="fa fa-tumblr-square fa-3x"></i></a>
-            TAGBLOCK HERE WHEN IT WORKS
+
+            <!-- Tag block for site to go in the header once tested-->
+              <p>
+                  {% for tag in site.tags %}
+                  <!-- Here's a hack to generate a "tag cloud" where the size of
+                  the word is directly proportional to the number of posts with
+                  that tag. -->
+                  <a href="/tags/{{ tag[0] }}/"
+                  style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
+                      {{ tag[0] }} |
+                  </a>
+                  {% endfor %}
+              </p>
         </nav>
     </header>
+
+
 <!-- project cards start here  move title to here-->
 
+<h1>{{ page.tag | capitalize }}</h1>
 
     <div class="content">
-        <!-- trianglify pattern container -->
+        <!-- trianglify pattern container can i remove this? -->
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
