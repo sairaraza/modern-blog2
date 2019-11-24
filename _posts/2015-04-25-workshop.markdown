@@ -3,7 +3,7 @@ title: "Lifecycle and applications of diatoms"
 subtitle: "Some outputs"
 image: "img/cube.gif"
 date:   2015-04-25 12:12:12
-tag: "Metamaterials"
+tag: "Metamaterials" "Materials"
 ---
 
 <style>
