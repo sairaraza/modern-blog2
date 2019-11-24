@@ -58,8 +58,8 @@ var Card = (function (window) {
         // Compose sequence and use duration to overlap tweens.
         this._TL.add(slideContentDown);
         this._TL.add(clipImageIn, 0);
-        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0.3);
-        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0.3);
+        this._TL.add(floatContainer, '-=' + clipImageIn.duration() * 0);
+        this._TL.add(clipImageOut, '-=' + floatContainer.duration() * 0);
         this._TL.add(slideContentUp/*, '-=' + clipImageOut.duration() * 0.6*/);
 
         this.isOpen = true;
@@ -206,7 +206,7 @@ var Card = (function (window) {
       /**
        * reduced from 1 to 0.3
        */
-        var tween = TweenLite.to(this._content, 0.6, {
+        var tween = TweenLite.to(this._content, 0.7, {
             y: 0,
             clearProps: 'all',
             ease: Expo.easeInOut
@@ -250,7 +250,7 @@ var Card = (function (window) {
      */
     Card.prototype.hideCard = function () {
   /*  decreased from 0.4 t0 0.2 s */
-        var tween = TweenLite.to(this._el, 0.2, {
+        var tween = TweenLite.to(this._el, 0, {
             scale: 0.8,
             autoAlpha: 0,
             transformOrigin: 'center bottom',
@@ -264,8 +264,8 @@ var Card = (function (window) {
      * Show card, called for all cards except the selected one.
      */
     Card.prototype.showCard = function () {
-  /* reduced from 0.5 to 0.2.*/
-        var tween = TweenLite.to(this._el, 0.2, {
+  /* reduced from 0.5 to 0 as this is when cards pop up at the end */
+        var tween = TweenLite.to(this._el, 0, {
             scale: 1,
             autoAlpha: 1,
             clearProps: 'all',
