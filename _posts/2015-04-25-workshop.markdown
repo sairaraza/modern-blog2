@@ -47,8 +47,8 @@ dl.list dl {margin-bottom:0px;}
   src="https://embed.kumu.io/e5c6952460b3a3fcef7a08c3d8b11a81"
   width="940" height="600" frameborder="0"></iframe>
 
-  <small>
-      {% for tag in page.tags %}
-      <a href="/tags/{{ tag }}/">{{ tag }}</a>
-      {% endfor %}
-  </small>
+<small>
+    {% for tag in page.tags %}
+    <a href="https://sairaraza.github.io/testblog/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+</small>

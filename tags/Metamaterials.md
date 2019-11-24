@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: Metamaterials
-permalink: /tags/metamaterials/
+tag: metamaterials
+permalink: https://sairaraza.github.io/testblog/tags/metamaterials
 ---
