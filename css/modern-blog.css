@@ -44,7 +44,7 @@
 
 .card__container--fix-image .card__image {
 	position: fixed;
-
+	opacity:0;
 }
 
 .card__content {
