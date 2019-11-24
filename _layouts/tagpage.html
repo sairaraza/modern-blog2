@@ -1,5 +1,6 @@
 ---
 layout: compress
+tags: Metamaterials
 ---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -7,7 +8,7 @@ layout: compress
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}</title>
+    <title>{{ site.title }}</title>  <h1>{{ page.tag | capitalize }}</h1>
     <meta name="description" content="{{ site.description }}"/>
     <meta name="keywords" content="{{ site.keywords }}"/>
     <meta name="author" content="{{ site.author }}"/>
@@ -25,7 +26,41 @@ layout: compress
         }
     </script>
 </head>
+
+
+
 <body class="body">
+
+<!-- Tag block for site to go in the header once tested-->
+  <p>
+      {% for tag in site.tags %}
+      <!-- Here's a hack to generate a "tag cloud" where the size of
+      the word is directly proportional to the number of posts with
+      that tag. -->
+      <a href="/tags/{{ tag[0] }}/"
+      style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
+          {{ tag[0] }} |
+      </a>
+      {% endfor %}
+  </p>
+
+
+<!-- list format index for this tag-->
+
+<h1>{{ page.tag | capitalize }}</h1>
+
+
+  <ul>
+      {% for post in site.tags[page.tag] %}
+      <li>
+          {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+  </ul>
+
+
+
+<!-- header for the site? -->
 <div class="container">
     <header class="header">
         <span><a href="https://sairaraza.github.io/testblog/About"><h1>SAIRA RAZA</h1></a>
@@ -33,15 +68,18 @@ layout: compress
         <nav class="links">
               <!-- cards <a href="#"><i class="fa fa-instagram fa-3x"></i></a>-->
             <a href="https://sairaraza.tumblr.com/"><i class="fa fa-tumblr-square fa-3x"></i></a>
-            TAGBLOCK HERE
+            TAGBLOCK HERE WHEN IT WORKS
         </nav>
     </header>
+<!-- project cards start here  move title to here-->
+
+
     <div class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% for post in site.posts %}
+            {% for post in site.tags[page.tag] %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"

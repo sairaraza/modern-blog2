@@ -1,7 +1,6 @@
 ---
 title:  "Vinyl cutting a a fractal antenna"
 subtitle: "Only lights from space"
-
 image: "img/d.jpg"
 date:   2015-04-23 12:12:12
 ---

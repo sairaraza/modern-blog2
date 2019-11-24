@@ -3,7 +3,7 @@ title:  "Machine learning repository online"
 subtitle: "A work in progress"
 image: "img/taxonomy.jpg"
 date:   2015-04-24 12:12:12
-tag: "Machine Learning"
+tags: Machine-learning
 ---
 
 ### Dolor sit amet?
