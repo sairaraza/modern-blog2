@@ -220,7 +220,7 @@ var Card = (function (window) {
      */
     Card.prototype.closeCard = function () {
 /*reduced this from 0.4 to 0.2s*/
-        TweenLite.to(this._container, 0.2, {
+        TweenLite.to(this._container, 0, {
             scrollTo: {
                 y: 0
             },
@@ -266,8 +266,8 @@ var Card = (function (window) {
     Card.prototype.showCard = function () {
   /* reduced from 0.5 to 0 as this is when cards pop up at the end */
         var tween = TweenLite.to(this._el, 0, {
-            scale: 1,
-            autoAlpha: 1,
+            scale: 0.8,
+            autoAlpha: 0,
             clearProps: 'all',
             ease: Expo.easeInOut
         });
