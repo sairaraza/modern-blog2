@@ -91,10 +91,10 @@ var Card = (function (window) {
         var TL = new TimelineLite;
 
         var start = [
-            [0, 600],
+            [0, 1200],
             [0, 0],
-            [935, 0],
-            [935, 600]
+            [1920, 0],
+            [1920, 1200]
         ];
 
         var end = [
@@ -163,7 +163,7 @@ var Card = (function (window) {
             overflow: 'hidden'
         });
 // changed wto 1 to see if it woud make image  faster. it did
-        TL.to([this._container, track], 0.5, {
+        TL.to([this._container, track], 0.1, {
 
             width: windowW,
             height: '100%',
@@ -266,7 +266,7 @@ var Card = (function (window) {
     Card.prototype.showCard = function () {
   /* reduced from 0.5 to 0 as this is when cards pop up at the end */
         var tween = TweenLite.to(this._el, 0, {
-            scale: 0.8,
+            scale: 0.4,
             autoAlpha: 0,
             clearProps: 'all',
             ease: Expo.easeInOut
